@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spy Bodycam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+    <canvas style="display: none;" width="1280px" height="720px"></canvas>
+    
+    <!-- Bodycam Overlay -->
+    <div class="overlayCont">
+        <div class="overlayBody">
+            <div class="bodyInfobox">
+                <div class="bodyDate">
+                    <i class="fa-solid fa-circle fa-fade bodyIcon"></i>
+                    <span>08-04 23:58:45-0500</span>
+                </div>
+                <div class="bodyNum">BODY 22 X6070511N</div>
+                <div class="bodyCallsign">(222) Spy Dev</div>
+            </div>
+            <img src="images/brand_logo.png" alt="Logo">
+            <div class="AddonIcons">
+                <i class="fa-solid fa-battery-three-quarters" title="Battery Status"></i>
+                <i class="fa-solid fa-wifi" title="Connection Status"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Record Info -->
+    <div class="RecordInfo">
+        <div class="recordBox">
+            <div class="HeadText">
+                <i class="fa-solid fa-video fa-fade bodyIcon"></i>
+                Recording Started
+            </div>
+        </div>
+    </div>
+
+    <!-- current camera -->
+    <div class="currWatchCont">
+        <div class="watchInfo">
+            <div class="userLaber">
+                <i class="fa-solid fa-video watchIcon" style="color: #cf0707;"></i>
+                <span class="watchInText typeCam">Bodycam</span>
+                <br>
+                <span class="watchInText plateText">Plate : 726G21</span>
+                <br>
+                <span class="watchInText carText">Car : Crown Vic</span>
+            </div>
+        </div>
+        <div class="backInfo">
+            <div class="backLabel">
+                <i class="fa-solid fa-video-slash backIcon"></i>
+                <span class="backInText">Ended</span>   
+            </div>
+        </div>
+    </div>
+
+    <!-- record list -->
+    <div class="recCont">
+        <div class="recMain">
+            <div class="recTitle">
+                <div class="recTitleTxt">Bodycam Recordings</div>
+                <div class="recDesc">POLICE DATABASE</div>
+                <img src="images/brand_logo.png" alt="Logo" class="recLogo">
+            </div>
+            <div class="RecBox">
+                <div class="recInnerScroll"></div>
+            </div>
+            <div class="recFilters">
+                <div class="recSearch">
+                    <i class="fas fa-search"></i>
+                    <input type="text" class="searchInput" placeholder="Search Recordings...">
+                </div>
+                <div class="recDateF">
+                    <input type="date" class="selectedDate" placeholder="Select Date">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- video player -->
+    <div class="vidplaycont">
+        <div class="vidMain">
+            <video class="vidPlayer" controls autoplay loop>
+                <source src="" type="video/webm">
+            </video>
+            <div class="vidPlayerIcon" title="Close">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- delete confirmation -->
+    <div class="askMain">
+        <div class="askIn">
+            <div class="askIcon">
+                <i class="fa-solid fa-trash fa-bounce"></i>
+            </div>
+            <h1 class="askTitle">Are you sure?</h1>
+            <div class="askBtnCont">
+                <div class="askBtn" title="Yes">Yes</div> 
+                <div class="askBtn" title="No">No</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- audio effects -->
+    <audio id="beep-sound" src="audio/on_sound.mp3"></audio>
+    <audio id="off-sound" src="audio/off_sound.mp3"></audio>
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
