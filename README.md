@@ -37,7 +37,7 @@ This is an improved version of the **Spy Bodycam** script for FiveM. The user in
 - Optimised for better FPS performance
 - Smoother animations and transition effects
 
-and more ...
+and more ....
 
 ## 🔄 Installation
 1. Firstly, download the original version of the script from here https://github.com/Your-Spy/spy-bodycam
