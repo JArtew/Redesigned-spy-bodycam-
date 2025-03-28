@@ -15,7 +15,7 @@ ve daha fazlası...
 4. Sunucunuzu yeniden başlatın ve geliştirilmiş bodycam deneyiminin tadını çıkarın.
 
 
-## 💎 Katıkda Bulunanlar
+## 💎 Katkıda Bulunanlar
 - **Script Creator:** [@Your-Spy](https://github.com/Your-Spy)
 - Paylaşmamıza izin verdiğiniz için. Çok teşekkür ederim, Your-Spy.
 
