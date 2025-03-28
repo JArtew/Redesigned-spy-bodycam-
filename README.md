@@ -25,6 +25,9 @@ ve daha fazlası...
 
 Geliştirmeler veya öneriler için katkıda bulunabilirsiniz! 🚀
 
+## Preview
+https://youtu.be/4cyn-TuB5Ps
+
 
 # Redesigned-spy-bodycam-
 
@@ -50,5 +53,8 @@ and more ...
 - **UI Renewal & Enhancements:** JArtew & Kondxius Hub
 
 **Discord:** https://discord.gg/VY4hxFXqnT
+
+## Preview
+https://youtu.be/4cyn-TuB5Ps
 
 You can contribute for improvements or suggestions! 🚀
